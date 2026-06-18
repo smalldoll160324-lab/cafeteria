@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #cf54ee;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .productos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+  
+  .producto {
+    background: #e764c0;
+    border: 2px solid #f1cde7;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 2px 2px 5px rgb(238, 130, 130);
+  }
+  
+  .producto img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .producto h3 {
+    margin: 10px 0 5px;
+  }
+  
+  .producto p {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  .producto button {
+    padding: 5px 10px;
+    background-color: #da0f96;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .producto button:hover {
+    background-color: #90bde9;
+  }
+  
+  .carrito h2 {
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  thead {
+    background-color: #f1f1f1;
+  }
+  
+  tbody td[colspan="5"] {
+    text-align: left;
+    color: #666;
+    font-style: italic;
+  }
